@@ -40,10 +40,10 @@ return [
                             [
                                 'test' => '@mode = \'album\'',
                                 'iframe'  => [
-                                    'width' =>540
+                                    'width' =>540,
                                     'src'    => '//music.163.com/outchain/player?type=1&id={@id}&auto=0&height=450'
                                 ]
-                            ],
+                                ],
                             [
                                 'test' => '@mode = \'song\'',
                                 'iframe'  => [
