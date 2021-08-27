@@ -65,8 +65,8 @@ return [
 					'host'	  => 'acfun.cn',
 					'extract' => "!acfun\.cn/v/ac(?'acid'[-0-9]+)!",
 					'iframe' => [
-                        'height' => 990,
-                        'width' => 540,
+                        'height' => 540,
+                        'width' => 990,
 						'src'  => '//www.acfun.cn/player/ac{@acid}'
 					]
 				]
@@ -80,8 +80,8 @@ return [
 						"!b23\.tv/(/av(?'aid'[-0-9]+))|(/BV(?'bvid'[-0-9A-Z_a-z]+))(/p(?'pn'[-0-9]+))?!"
 					],
 					'iframe' => [
-                        'height' => 990,
-                        'width' => 540,
+                        'height' => 540,
+                        'width' => 990,
 						'src'  => '//player.bilibili.com/player.html?aid={@aid}&bvid={@bvid}&page={@pn}'
 					]
 				]
