@@ -15,13 +15,13 @@
 ### 安装
 
 ```
-composer require zequeen/acgembd-remarstered
+composer require zequeen/acgembed-remarstered
 ```
 
 ### 更新
 
 ```
-composer update zequeen/acgembd-remarstered
+composer update zequeen/acgembed-remarstered
 php flarum cache:clear
 ```
 
