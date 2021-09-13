@@ -15,7 +15,7 @@
 ### 安装
 
 ```
-composer require zequeen/acgembed-remarstered
+composer require zequeen/acgembed-remastered
 ```
 
 ### 更新
